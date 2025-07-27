@@ -1,6 +1,6 @@
 <?php 
 if($_SERVER['REQUEST_METHOD'] != 'Post'){
-    header('location: login.php');
+    header('location: dashboard.php');
 }
 
 $user_email = $_POST['email'];
@@ -24,5 +24,5 @@ if($data) {
     $_SESSION['is_loggedin'] = true;
     header("Location: dashboard.php");
 } else {
-    header("Location: login.php?error=email or password incorrect");
+    header("Location: index.php?error=email or password incorrect");
 }

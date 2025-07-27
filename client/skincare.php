@@ -22,7 +22,7 @@ include 'nevbar.php';
 
   <!-- Product 1 -->
   <div class="bg-white rounded-xl shadow hover:shadow-lg p-4">
-    <img src="https://source.unsplash.com/300x300/?skincare,serum" alt="Serum" class="w-full h-40 object-cover rounded">
+    <img src="./images/serums.jpeg" alt="Serum" class="w-full h-40 object-cover rounded">
     <h3 class="text-lg font-bold text-pink-600 mt-3">Vitamin C Serum</h3>
     <p class="text-gray-600 text-sm">For brighter, glowing skin</p>
     <p class="text-pink-600 font-bold mt-2">Rs. 650</p>
